@@ -18,6 +18,10 @@ reflected to Postfix configuration.
 RATUUS is using the same database layout as famous PostfixAdmin so migration is 
 quite simple and supported by RATUUS installer.
 
+INSTALLATION
+
+http://www.ratuus.org/documentation/
+
 AUTHORS
 Ratuus is created and maintained by Miljan Karadzic (http://www.miljan.org/).
 

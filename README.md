@@ -23,12 +23,14 @@ INSTALLATION
 http://www.ratuus.org/documentation/
 
 AUTHORS
+
 Ratuus is created and maintained by Miljan Karadzic (http://www.miljan.org/).
 
 User interface and web site are kindly designed by Azuma Vega (http://www.azumavega.com). 
 Feel free to contact them, they are very open and friendly. :)
 
 LICENSE
+
 Ratuus is released under GNU GPL v3 or any newer version of this license. This means 
 you can download Ratuus, use it for any purpose (noncommercial as well as commercial), 
 you can modify the code, and, well, do what ever you have in mind with it. For more 

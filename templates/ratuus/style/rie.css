@@ -1,0 +1,10 @@
+img, #logout a, #menu a.m1, #menu a.m2, #menu a.m3, #menu a.m4, #menu a.m1:hover, #menu a.m2:hover, #menu a.m3:hover, #menu a.m4:hover, div.error, div.notice, div.confirmation, .title .active, .title .notactive { behavior: url(iepngfix.htc); }
+#logo {float:left;margin-top:41px;margin-left:17px;clear:left;width:205px}
+#menu {float:left;margin-top:58px;margin-left:40px;}
+#logout {float:right;margin-right:4px;margin-top:24px}
+#main {clear:both; padding-top:19px; width:950px; margin: 0 auto;}
+#leftbar {float:right;margin-top:15px;width:248px;clear:left}
+.title .ed, .ctitle .ed {float:right;}
+.ctitle .ed {margin-top:20px;padding-left:5px;}
+/*.search {padding-top:70px}*/
+#index .cbgm {width:659px;padding-right:7px;}

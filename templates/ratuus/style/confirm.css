@@ -1,0 +1,85 @@
+div.jqmConfirm input[type="submit"] { 
+	padding: 4px; 
+	color:#fff;
+	background:#AFAFE6;
+}
+
+div.jqmConfirm { /* contains + positions the alert window */
+  display: none;  
+  position: fixed;
+  top: 17%;
+  width:100%;
+  border: 2px solid #76C83F;
+  background: #fff;
+}
+    
+* html div.jqmConfirm {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+
+div.jqmConfirmWindow {
+  height:auto;
+  width: auto;
+  margin: auto;  
+  max-width:300px;
+  padding-top:10px;  
+  padding-bottom:10px;  
+  background:#fff;
+}
+
+.jqmConfirmTitle{
+  margin:5px 2px;
+  height:20px;
+  color:#000;
+  background:#fff;
+}
+.jqmConfirmTitle h1{
+  margin:5px 2px;
+  padding-left:5px;
+  padding:0;
+  font-size:14px;
+  text-transform:capitalize;
+  letter-spacing:-1px;
+  font-weight:bold;
+  color:#000;
+  float:left;
+  height:20px;
+}
+
+div.jqmConfirm .jqmClose em{display:none;}
+div.jqmConfirm .jqmClose {
+  width:20px;
+  height:19px;
+  display:block;
+  float:right;
+  clear:right;
+  background:transparent url(../img/double_close_button.png) 0 0 no-repeat;
+}
+
+div.jqmConfirm a.jqmClose:hover{ background-position: 0 -19px; }
+
+div.jqmConfirmContent{
+  border-top:px;
+  color:#000;
+  font:11px/14pt arial;
+  padding:5px 20px 5px;
+  margin:5px;
+  letter-spacing:0px;
+  background:#F1F1FB;
+}
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */

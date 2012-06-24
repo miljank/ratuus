@@ -26,7 +26,7 @@ AUTHORS
 
 Ratuus is created and maintained by Miljan Karadzic (http://www.miljan.org/).
 
-User interface and web site are kindly designed by Azuma Vega (http://www.azumavega.com). 
+User interface and web site are kindly designed by eLogodesign (http://www.elogodesign.com). 
 Feel free to contact them, they are very open and friendly. :)
 
 LICENSE
